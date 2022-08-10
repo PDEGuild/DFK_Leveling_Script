@@ -3,6 +3,7 @@ Sticky9000's fork of 0rtis / dfktools to automatically level up your heroes
 
 ### Instructions
 
+0. Consider testing this first on a non-primary wallet so you dont mishandle your private key while learninng. 
 1. Install Python on your local machine
 2. Copy these files into a folder and make the following customizations:
 
@@ -25,4 +26,4 @@ Sticky9000's fork of 0rtis / dfktools to automatically level up your heroes
 
 0rtis dfktools: https://github.com/0rtis/dfktools
 
-DirtyCajunRice web3 tool for nft batch transfer: [Web3helper.dfk.af/#/](https://web3helper.dfk.af/#/)
+DirtyCajunRice web3 tool for nft batch transfer: [Web3helper.dfk.af/#/](https://web3helper.dfk.af/#/) (If you want to be extra cautious, use this to transfer your NFTs in bulk to a "sanitized wallet")
