@@ -24,4 +24,5 @@ Sticky9000's fork of 0rtis / dfktools to automatically level up your heroes
 ### Helpful resources
 
 0rtis dfktools: https://github.com/0rtis/dfktools
+
 DirtyCajunRice web3 tool for nft batch transfer: [Web3helper.dfk.af/#/](https://web3helper.dfk.af/#/)
