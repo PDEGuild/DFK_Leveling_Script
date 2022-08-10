@@ -5,7 +5,7 @@ Sticky9000's fork of 0rtis / dfktools to automatically level up your heroes
 
 0. Consider testing this first on a non-primary wallet so you dont mishandle your private key while learning. 
 1. Install Python on your local machine
-2. Copy these files into a folder and make the following customizations:
+2. Copy the files in this github repo into a folder and make the following customizations:
 
 >  `private` for your private key, in the config.py file
 
