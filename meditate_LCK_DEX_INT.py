@@ -33,29 +33,6 @@ if __name__ == "__main__":
     hero_meditation = meditation.get_hero_meditation(hero_id, rpc_server)
     logger.info("Pending meditation "+str(hero_meditation))
 
-    time.sleep(10)
-    logger.info("Sleep 10")
-
-    level = 2
-    hero_id = 241836
-    required_runes = meditation.get_required_runes(level, rpc_server)
-    meditation.start_meditation(hero_id, meditation.stat2id('luck'), meditation.stat2id('dexterity'), meditation.stat2id('intelligence'),
-                                meditation.ZERO_ADDRESS, private_key, w3.eth.getTransactionCount(account_address),
-                                gas_price_gwei, tx_timeout_seconds, rpc_server, logger)
-    hero_meditation = meditation.get_hero_meditation(hero_id, rpc_server)
-    logger.info("Pending meditation "+str(hero_meditation))
-
-    time.sleep(10)
-    logger.info("Sleep 10")
-
-    level = 1
-    hero_id = 262009
-    required_runes = meditation.get_required_runes(level, rpc_server)
-    meditation.start_meditation(hero_id, meditation.stat2id('luck'), meditation.stat2id('dexterity'), meditation.stat2id('intelligence'),
-                                meditation.ZERO_ADDRESS, private_key, w3.eth.getTransactionCount(account_address),
-                                gas_price_gwei, tx_timeout_seconds, rpc_server, logger)
-    hero_meditation = meditation.get_hero_meditation(hero_id, rpc_server)
-    logger.info("Pending meditation "+str(hero_meditation))
 
     time.sleep(30)
     logger.info("Sleep 30")
@@ -66,21 +43,4 @@ if __name__ == "__main__":
                                    gas_price_gwei, tx_timeout_seconds, rpc_server, logger)
     logger.info("meditation Complete")
 
-    time.sleep(10)
-    logger.info("Sleep 10")
-
-
-    hero_id = 241836
-
-    meditation.complete_meditation(hero_id, private_key, w3.eth.getTransactionCount(account_address),
-                                   gas_price_gwei, tx_timeout_seconds, rpc_server, logger)
-    logger.info("meditation Complete")
-
-    time.sleep(10)
-    logger.info("Sleep 10")
-
-    hero_id = 262009
-
-    meditation.complete_meditation(hero_id, private_key, w3.eth.getTransactionCount(account_address),
-                                   gas_price_gwei, tx_timeout_seconds, rpc_server, logger)
-    logger.info("meditation Complete")
+    
