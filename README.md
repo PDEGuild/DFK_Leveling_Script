@@ -4,7 +4,7 @@ Sticky9000's fork of 0rtis / dfktools to automatically level up your heroes
 ### Instructions
 
 1. Install Python on your local machine
-2. Copy these files into a folder and replace the following:
+2. Copy these files into a folder and make the following customizations:
 
 `private` // for your private key, in the config.py file
 
@@ -20,3 +20,8 @@ Sticky9000's fork of 0rtis / dfktools to automatically level up your heroes
 > You can see what stat "strings" are available to use in `meditation/meditation.py`
 
 3. Once it is configured to your liking, run it with `python meditate_LCK_AGI_VIT.py`
+
+### Helpful resources
+
+0rtis dfktools: https://github.com/0rtis/dfktools
+DirtyCajunRice web3 tool for nft batch transfer: [Web3helper.dfk.af/#/](https://web3helper.dfk.af/#/)
