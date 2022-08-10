@@ -15,7 +15,7 @@ Sticky9000's fork of 0rtis / dfktools to automatically level up your heroes
 
 >  `hero_id` id of the hero you want leveled up
 
->  `meditation.stat2id('luck'), meditation.stat2id('dexterity'), meditation.stat2id('intelligence')` replace these with the stats you want to pick. You can see what stat "strings" are available to use in `meditation/meditation.py`
+>  `meditation.stat2id('luck'), meditation.stat2id('dexterity'), meditation.stat2id('intelligence')` replace these with the stats you want to select for leveling up. You can see what stat "strings" are available to use in `meditation/meditation.py`
 
 3. Once it is configured to your liking, run it with `python meditate_LCK_AGI_VIT.py` 
 4. You can create copies of the script so that it's templated, like how I did for LCK DEX INT or VIT DEX INT
