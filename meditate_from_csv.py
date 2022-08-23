@@ -10,7 +10,7 @@ if __name__ == "__main__":
     log_format = '%(asctime)s|%(name)s|%(levelname)s: %(message)s'
 
     logger = logging.getLogger("DFK-meditation")
-    logger.setLevel(logging.WARNING)
+    logger.setLevel(logging.DEBUG)
     logging.basicConfig(level=logging.INFO, format=log_format, stream=sys.stdout)
 
     rpc_server = 'https://rpc.ankr.com/harmony'
